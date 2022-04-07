@@ -1,0 +1,72 @@
+@media screen and (max-width: 767px){   
+    #main-img{      
+        content:url("Images/f6.jpg");
+    } 
+}
+
+@media screen and (min-width: 768px) {      
+    #main-img{      
+       content:url("Images/prof10.jpg");
+     } 
+} 
+@media (min-width: 992px){      
+      #main-img{        
+          content:url("Images/prof10.jpg");  
+      } 
+}
+@media (min-width: 1200px) {    
+
+     #main-img{         
+         content:url("Images/prof12.jpg");   
+     } 
+}
+
+
+
+
+
+
+
+/* Landing media query */
+@media screen and (max-width: 767px){   
+    #image{      
+        content:url("Images/f6.jpg");
+    } 
+}
+
+@media screen and (min-width: 768px) {      
+    #image{    
+        width: 100%;
+       content:url("Images/prof0.jpg");
+     } 
+} 
+@media (min-width: 992px){      
+    #image{        
+          content:url("Images/prof10.jpg");  
+      } 
+}
+@media (min-width: 1200px) {    
+
+     #image{         
+         content:url("Images/prof11.jpg");   
+     } 
+}
+
+
+
+
+
+
+
+
+
+/* CSS Document */
+#headerPopup{
+  width:75%;
+  margin:0 auto;
+}
+
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
+}
