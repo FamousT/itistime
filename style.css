@@ -1638,7 +1638,7 @@ form textarea:focus {}
 }
 
 .pd-y-t-35 {
-    padding-top: 35px;
+    padding-top: 30px;
 }
 
 .pd-y-t-25 {
@@ -1690,7 +1690,7 @@ form textarea:focus {}
 }
 
 .pd-y-b-35 {
-    padding-bottom: 35px;
+    /* padding-bottom: 35px; */
 }
 
 .pd-y-b-25 {
