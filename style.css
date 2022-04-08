@@ -1892,7 +1892,7 @@ form textarea:focus {}
 /* ========================= header-area start ========================= */
 
 header .header-left > li {
-    border-left: 1px solid #1868b9;
+    /* border-left: 1px solid #1868b9; */
 }
 
 .header-left ul.dropdown-menu {
@@ -1935,7 +1935,7 @@ header .header-left > li {
 }
 
 header .header-right > li {
-    border-right: 1px solid #1868b9;
+    /* border-right: 1px solid #1868b9; */
 }
 
 header .header-left > li:last-child {
@@ -1943,7 +1943,7 @@ header .header-left > li:last-child {
 }
 
 header .header-right > li:last-child {
-    border-left: 1px solid #1868b9;
+    /* border-left: 1px solid #1868b9; */
 }
 
 
