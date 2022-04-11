@@ -471,7 +471,7 @@ img {
     line-height: 44px;
     letter-spacing: 0;
     text-transform: uppercase;
-    margin-bottom: 45px;
+    margin-bottom: 55px;
     position: relative;
 }
 
@@ -574,7 +574,7 @@ img {
     color: #222222;
     font-weight: bold;
     text-align: left;
-    line-height: 15px;
+    line-height: 42px;
     letter-spacing: 0;
     text-transform: uppercase;
     margin-bottom: 30px;
@@ -3151,10 +3151,10 @@ nav .nav-2-social a.tc-6:hover {
 }
 
 .accordion .acc-btn h2 {
-    padding-left: 87px;
+    /* padding-left: 87px; */
     padding-top: 19px;
     padding-bottom: 17px;
-    line-height: 13px;
+    line-height: 28px;
 }
 
 .accordion .acc-btn .img-box {

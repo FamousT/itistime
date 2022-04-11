@@ -63,3 +63,16 @@
   width:100%;
   margin:0 auto;
 }
+
+
+
+.acc-btn{
+    background-color: rgb(238, 238, 238);
+    padding: 20px; 
+    text-align: justify;
+}
+.acc-btn:hover {
+    background-color: rgb(212, 212, 212);
+    
+
+}
