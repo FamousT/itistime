@@ -83,7 +83,6 @@
 
 div.gallery {
     border: 0px;
-    /* transition: all 1s ease-in-out; */
     gap: 0px;
     column-gap: 0px;
   }

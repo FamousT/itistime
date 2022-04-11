@@ -1984,13 +1984,13 @@ div.nav-item > ul.nav-right > li > ul.dropdown-1 {
     position: absolute;
     top: 120%;
     left: 0;
-    background: rgb(11, 10, 10);
+    background: rgb(1, 17, 0);
     z-index: 999;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
     opacity: 0;
     visibility: hidden;
-    width: 230px;
+    width: 300px;
 }
 
 div.nav-item > ul.nav-right > li:hover > ul.dropdown-1 {
@@ -2014,7 +2014,7 @@ div.nav-item > ul.nav-right > li > ul.dropdown-1 li > a {
 
 div.nav-item > ul.nav-right > li > ul.dropdown-1 li > a:hover {
     color: #ffffff;
-    background: #e0162b;
+    background: #883939;
     transition: .5s ease;
 }
 
