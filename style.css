@@ -1638,7 +1638,7 @@ form textarea:focus {}
 }
 
 .pd-y-t-35 {
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .pd-y-t-25 {
@@ -1968,7 +1968,7 @@ div.nav-item > ul.nav-right > li {
 }
 
 div.nav-item > ul.nav-right > li > a {
-    padding: 55px 40px 55px 10px;
+    padding: 45px 40px 40px 10px;
     position: relative;
     display: block;
 }

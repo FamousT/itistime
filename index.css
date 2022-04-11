@@ -134,3 +134,64 @@ div.gallery {
     display: table;
     clear: both;
   }
+
+  .centertext {
+    background-image: url(Images/home2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 400px;
+    padding-bottom: 300px;
+  }
+
+  .centerheading {
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-size: 52px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  @media screen and (max-width: 480px){   
+    .centerheading{
+        font-size: 40px;
+    }
+  }
+
+
+  .button {
+    border: none;
+    color: white;
+    /* padding: 16px 32px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    /* margin: 4px 2px; */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 50px;
+    width: 250px;
+  }
+  
+  .button1 {
+    background-color: #78f088; 
+    color: black; 
+    
+    border: 2px solid #ffffff;
+  }
+  
+  .button1:hover {
+    background-color: #093d0a;
+    color: white;
+  }
+  
