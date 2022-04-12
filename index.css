@@ -172,6 +172,47 @@ div.gallery {
   }
 
 
+
+
+
+  @media only screen and (min-width: 1200px) {
+    .man {
+font-size: 40px;
+padding-top: 65px;
+text-align: left;
+    }
+  }
+
+
+  @media only screen and (max-width: 1000px) {
+    .man {
+font-size: 40px;
+/* padding-top: 30px; */
+text-align: center;
+    }
+  }
+
+
+  @media only screen and (max-width: 500px) {
+    .man {
+      padding-top: 45px;
+      padding-bottom: 5px;
+font-size: 30px;
+text-align: center;
+    }
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
   .button {
     border: none;
     color: white;
