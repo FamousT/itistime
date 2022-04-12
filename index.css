@@ -74,7 +74,7 @@
 	transition: 0.3s ease-in-out;
 }
 .acc-btn:hover {
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(161, 211, 163);
     transform: scale(1.1);
 
 }
