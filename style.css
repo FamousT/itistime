@@ -1967,6 +1967,18 @@ div.nav-item > ul.nav-right > li {
     position: relative;
 }
 
+
+div.nav-item > ul.nav-right > li:hover {
+    color: #746c00;
+}
+
+div.nav-item > ul.nav-right > li.active {
+    color: #746c00;
+}
+
+
+
+
 div.nav-item > ul.nav-right > li > a {
     padding: 45px 40px 40px 10px;
     position: relative;
@@ -1979,6 +1991,7 @@ div.nav-item > ul.nav-right > li > a > i {
     font-size: 10px;
     font-weight: normal;
 }
+
 
 div.nav-item > ul.nav-right > li > ul.dropdown-1 {
     position: absolute;
