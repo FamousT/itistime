@@ -1,3 +1,4 @@
+
 /* Landing media query */
 @media screen and (max-width: 480px){   
     #button{
@@ -13,7 +14,6 @@
         padding-left: 19px;
     }
 }
-
 
 
 
@@ -129,9 +129,7 @@ div.gallery {
     clear: both;
   }
 
-  .centertext {
-    height: 100%;
-  }
+  
 
   .centerheading {
     color: white;
@@ -186,10 +184,10 @@ text-align: center;
     .centerheading {
       transform: translateX(-50%) translateY(-800%);
     }
-
+/* 
     .centertext {
       height: 10%;
-    }
+    } */
   }
 
   
@@ -239,4 +237,22 @@ text-align: center;
 
   #sectioned {
     padding-top: 10px;
+}
+
+
+
+
+@media only screen and (min-width: 401px) {
+  .video {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .video {
+    height: 250px;
+  }
+  .landpage{
+    font-size: 30px;
+  }
 }
