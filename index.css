@@ -279,7 +279,7 @@ text-align: center;
 
 @media only screen and (max-width: 999px) {
   .video {
-    height: 500px;
+width: 100%;
   }
 
  
@@ -304,7 +304,7 @@ text-align: center;
     font-size: 35px;
     text-align: left;
     margin-left: -320px;
-    margin-top: -200px;
+    margin-top: -300px;
     position: relative;
     /* width: 200px; */
    }
@@ -332,7 +332,7 @@ text-align: center;
 
 @media only screen and (max-width: 400px) {
   .video {
-    height: 250px;
+width:100%
   }
 
   .name{
@@ -343,23 +343,25 @@ display: none;
     background-color: #78f088; 
     color: black; 
     border: 2px solid #ffffff;
-    font-size:16px; 
+    font-size:14px; 
     padding-left: 8px; 
     padding-right: 8px; 
     padding-top: 5px; 
     padding-bottom: 5px; 
     border-radius: 10px; 
-    margin-left: -95px;
+    margin-left: -120px;
     margin-top:-120px ;
+    position: relative;
   }
  
 
   .dec{
+    /* display: none; */
     color: white;
     font-family: "SourceSerifProBold";
-    font-size: 30px;
+    font-size: 20px;
     text-align: left;
-    margin-left: -95px;
+    margin-left: -120px;
     margin-top: -140px;
     position: relative;
     width: 200px;
