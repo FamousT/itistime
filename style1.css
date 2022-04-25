@@ -5193,7 +5193,7 @@ Search Popup
     left: 0;
     width: 100%;
     z-index: 100 !important;
-    background: #000000 !important;
+    background: #000 !important;
     padding-left: 15px !important;
     padding-right: 15px !important;
     box-shadow: 5px 0 10px #aaa;

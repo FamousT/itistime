@@ -222,12 +222,12 @@ text-align: center;
     transform: translateY(-800%);
   }
   
-  .button1 {
+  /* .button1 {
     background-color: #78f088; 
     color: black; 
     
     border: 2px solid #ffffff;
-  }
+  } */
   
   .button1:hover {
     background-color: #093d0a;
@@ -242,17 +242,128 @@ text-align: center;
 
 
 
-@media only screen and (min-width: 401px) {
+@media only screen and (min-width: 1000px) {
   .video {
     width: 100%;
   }
+  .dec{
+    color: white; 
+    font-family: "SourceSerifProBold"; 
+    font-size: 50px; 
+    text-align: left;
+    position: relative;
+  }
+
+  .name{
+    padding-bottom: 20px;
+  }
+
+  .button1{
+    background-color: #78f088; 
+    color: black; 
+    border: 2px solid #ffffff;
+    font-size:18px; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    border-radius: 20px; 
+    margin-left: 2px;
+  }
 }
+
+
+
+
+
+
+@media only screen and (max-width: 999px) {
+  .video {
+    height: 500px;
+  }
+
+ 
+
+  .button1{
+    background-color: #78f088; 
+    color: black; 
+    border: 2px solid #ffffff;
+    font-size:16px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    padding-top: 8px; 
+    padding-bottom: 8px; 
+    border-radius: 10px; 
+    margin-left: -320px;
+  }
+ 
+
+  .dec{
+    color: white;
+    font-family: "SourceSerifProBold";
+    font-size: 35px;
+    text-align: left;
+    margin-left: -320px;
+    margin-top: -200px;
+    position: relative;
+    /* width: 200px; */
+   }
+
+   .name{
+    color: white;
+    font-family: "SourceSerifProBold";
+    font-size: 35px;
+    text-align: left;
+    margin-left: -320px;
+    margin-top: -10px;
+    position: relative;
+    padding-bottom: 15px;
+          }
+}
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 400px) {
   .video {
     height: 250px;
   }
-  .landpage{
-    font-size: 30px;
+
+  .name{
+display: none;
   }
+
+  .button1{
+    background-color: #78f088; 
+    color: black; 
+    border: 2px solid #ffffff;
+    font-size:16px; 
+    padding-left: 8px; 
+    padding-right: 8px; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    border-radius: 10px; 
+    margin-left: -95px;
+    margin-top:-120px ;
+  }
+ 
+
+  .dec{
+    color: white;
+    font-family: "SourceSerifProBold";
+    font-size: 30px;
+    text-align: left;
+    margin-left: -95px;
+    margin-top: -140px;
+    position: relative;
+    width: 200px;
+   }
 }
+
+
