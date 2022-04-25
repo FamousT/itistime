@@ -294,6 +294,47 @@ width: 100%;
     padding-top: 8px; 
     padding-bottom: 8px; 
     border-radius: 10px; 
+    margin-left: -190px;
+  }
+ 
+
+  .dec{
+    color: white;
+    font-family: "SourceSerifProBold";
+    font-size: 20px;
+    text-align: left;
+    margin-left: -190px;
+    margin-top: -200px;
+    position: relative;
+    /* width: 200px; */
+   }
+
+   .name{
+    display: none;
+        }
+}
+
+
+
+
+
+@media only screen and (max-width: 401px) {
+  .video {
+width: 100%;
+  }
+
+ 
+
+  .button1{
+    background-color: #78f088; 
+    color: black; 
+    border: 2px solid #ffffff;
+    font-size:16px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    padding-top: 8px; 
+    padding-bottom: 8px; 
+    border-radius: 10px; 
     margin-left: -320px;
   }
  
@@ -304,7 +345,7 @@ width: 100%;
     font-size: 35px;
     text-align: left;
     margin-left: -320px;
-    margin-top: -300px;
+    margin-top: -250px;
     position: relative;
     /* width: 200px; */
    }
